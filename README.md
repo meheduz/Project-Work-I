@@ -1,18 +1,18 @@
-# **Project Work I**  
-## **Arduino Bluetooth-Controlled RC Car with ESP32-CAM Upgrade Attempt**
+# Project Work I  
+## Arduino Bluetooth-Controlled RC Car with ESP32-CAM Upgrade Attempt
 
 **Submitted To:**  
-**Md. Shadmim Hassan Sifat**  
+Md. Shadmim Hassan Sifat  
 Lecturer, Department of CSE, SUST  
 
 **Submitted By:**  
-**Md. Meheduz Zaman**  
+Md. Meheduz Zaman  
 Reg: 2023331064  
 Department of CSE, SUST  
 
 ---
 
-##**Project Overview**
+## Project Overview
 This project presents a **Bluetooth-controlled RC car using Arduino**, later extended with an **ESP32-CAM module** to attempt **live video streaming**.  
 All **Bluetooth features are fully working** — motor control, lights, horn, speed levels, and braking.  
 
@@ -20,7 +20,7 @@ In the **upgrade stage**, I tried to integrate **video streaming** using ESP32-C
 
 ---
 
-##**Working Features (Arduino Version – Fully Functional)**  
+## Working Features (Arduino Version – Fully Functional)
 - Forward & backward movement  
 - Left & right turning  
 - Speed control (PWM)  
@@ -29,7 +29,7 @@ In the **upgrade stage**, I tried to integrate **video streaming** using ESP32-C
 
 ---
 
-##**Hardware Used**
+## Hardware Used
 
 | Component | Purpose |
 |-----------|--------|
@@ -42,7 +42,7 @@ In the **upgrade stage**, I tried to integrate **video streaming** using ESP32-C
 
 ---
 
-##**Bluetooth Command List**
+## Bluetooth Command List
 
 | Command | Action |
 |--------|-------|
@@ -56,49 +56,48 @@ In the **upgrade stage**, I tried to integrate **video streaming** using ESP32-C
 
 ---
 
-##**How to Use**
-1. Connect all hardware components
-2. Upload Arduino code from Arduino IDE
-3. Pair Bluetooth module with phone/PC
-4. Send commands from any Bluetooth terminal app
-5. Car will respond instantly
+## How to Use
+1. Connect all hardware components.  
+2. Upload Arduino code from Arduino IDE.  
+3. Pair Bluetooth module with phone/PC.  
+4. Send commands from any Bluetooth terminal app.  
+5. Car will respond instantly.
 
 ---
 
-##**Working Demo**
+## Working Demo
 **Watch Arduino Version Video:**  
-https://drive.google.com/file/d/1i5NKKOEtDWRbgiqOLpSNPt2c54TIfO-Y/view?usp=share_link
+[https://drive.google.com/file/d/1i5NKKOEtDWRbgiqOLpSNPt2c54TIfO-Y/view?usp=share_link](https://drive.google.com/file/d/1i5NKKOEtDWRbgiqOLpSNPt2c54TIfO-Y/view?usp=share_link)
 
 ---
 
-##**ESP32-CAM Video Streaming Attempt**
+## ESP32-CAM Video Streaming Attempt
 
-### **Goal:**  
+### Goal
 Add live camera feed using ESP32-CAM.  
 Tested using Wi-Fi streaming & raw RGB methods.
 
-### **Tried Approaches:**
+### Tried Approaches
 - MJPEG streaming via Wi-Fi  
 - Raw RGB data streaming to PC  
 - Python OpenCV testing  
 - Pin reconfiguration tests  
 
-### **Issue Faced:**  
+### Issue Faced
 The module returned camera initialization error.  
-So streaming could not be completed:
-I tested until the last stage — but the hardware issue prevented final streaming output.
+Streaming could not be completed. I tested until the last stage — but the hardware issue prevented final streaming output.
 
 ---
 
-##**Conclusion**
-- **Bluetooth RC Car is fully successful.**
-- **ESP32-CAM upgrade was attempted seriously**, but due to camera failure, streaming wasn’t possible.
-- The project is working and ready for submission.
+## Conclusion
+- **Bluetooth RC Car is fully successful.**  
+- **ESP32-CAM upgrade was attempted seriously**, but due to camera failure, streaming wasn’t possible.  
+- The project is working and ready for submission.  
 - Camera upgrade can be continued later with a new module.
 
 ---
 
-##**Future Scope**
+## Future Scope
 - Fix / replace camera module  
 - Add IoT remote control using internet  
 - Create Android app for UI control  
@@ -107,8 +106,6 @@ I tested until the last stage — but the hardware issue prevented final streami
 
 ---
 
-Engineering means trying, failing, and pushing forward.  
+*Engineering means trying, failing, and pushing forward.*  
 The car **moved**, **blinked**, **honked**, and **almost saw** —  
 the next version will definitely see.
-
----
